@@ -1,0 +1,145 @@
+.cta {
+    height: 200px;
+    background: #2E2E2E;
+    background: linear-gradient(180deg,rgba(46, 46, 46, 1) 0%, rgb(0, 0, 0) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    z-index: 0;
+    border-radius: 50px 50px 0 0;
+}
+
+.cta h2 {
+    font-weight: 300px;
+    font-size: 30px;
+    color: #cbcbcb;
+    border: 5px solid rgba(196, 196, 196, 0.058);
+    padding: 30px 50px;
+    border-radius: 24px;
+}
+
+.gameSection {
+    height: 45rem;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #171717;
+}
+
+.gameSection > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: #292929;
+    padding: 60px 0;
+    border-radius: 24px;
+    width: 25vw;
+}
+
+/* targets the box art for each game */
+.gameSection > div > img {
+    border-radius: 12px;
+    height: 23vw;
+    margin-bottom: 2.5rem;
+}
+
+.gameSection .buttonContainer {
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    height: 100px;
+}
+
+.gameSection .buttonContainer button {
+    margin-bottom: 20px;
+    background-color: #1b1b1b;
+	color: inherit;
+	border: none;
+	padding: 10px 20px;
+    width: 13vw;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    border-radius: 12px;
+    transition: 200ms ease;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.gameSection .buttonContainer button:hover {
+    box-shadow: var(--boxShadow);
+}
+
+.gameSection .buttonContainer button:active, .submissionSection button:active {
+    box-shadow: none;
+    transform: translateY(2px);
+}
+
+.dsI {
+    filter: drop-shadow(30px 16px 20px #33719785);
+    background: linear-gradient(180deg, #337197 0%, #c0c0c0 100%);
+    transition: 300ms;
+}
+
+.dsI:hover {
+    filter: drop-shadow(0px 0px 20px #33719785);
+}
+
+.dsII {
+    filter: drop-shadow(10px 10px 20px #973333);
+    background: linear-gradient(180deg, #973333 0%, #c0c0c0 100%);
+    transition: 300ms;
+}
+
+.dsII:hover {
+    filter: drop-shadow(0px 0px 20px #973333a7);
+}
+
+.dsIII {
+    filter: drop-shadow(-30px 16px 20px #c2af406c);
+    background: linear-gradient(180deg, #c2ae40 0%, #c0c0c0 100%);
+    transition: 300ms;
+}
+
+.dsIII:hover {
+    filter: drop-shadow(0px 0px 20px #c2af406c);
+}
+
+.fireIcon {
+    height: 25px;
+    width: 25px;
+    transform: translate(-5px, -1px);
+    margin: 10px;
+}
+
+@media (width < 800px) {
+    .gameSection {
+        /* min-width: 30rem; */
+        height: 100%;
+        flex-direction: column;
+        gap: 30px;
+        /* flex-wrap: wrap; */
+    }
+
+    .gameSection > div {
+        width: 50%;
+    }
+
+    .gameSection .buttonContainer {
+        /* width: 100%; */
+        /* margin: auto; */
+    }
+
+    .buttonContainer button {
+        /* width: 100%; */
+    }
+}

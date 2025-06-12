@@ -1,0 +1,71 @@
+{
+    "dsI": {
+        "gameTitle": "Dark Souls I",
+        "locations": [
+            {
+                "title": "Undead Burg",
+                "route": "/undead-burg",
+                "data": {
+                    "description": "Undead Burg is an area in Dark Souls I. It's one of the very first areas the player encounters, and it's full of early-game enemies and loot. One of the best parts of Undead Burg is how tightly connected it is to the rest of the game so far. It links back to Firelink Shrine (the main hub area of the game) on one side, and connects to Undead Parish on the other side (which also connects back to Firelink Shrine). It's a great area simply because it's well-designed. There are multiple forking paths, challenging enemies, and tucked away areas to explore.",
+                    "image": "undead-burg.jpg",
+                    "imagePosition": "center"
+                }
+            },
+            {
+                "title": "Anor Londo",
+                "route": "/anor-londo",
+                "data": {
+                    "description": "Anor Londo is an area in Dark Souls I. It's one of the most famously known areas in the entire series, due to its infamous boss fight against Ornstein and Smough. The entrance to the area is shown through a beautiful cutscene displaying the castle and the sunset behind it. It is another very well-designed area with challenging enemies that is about halfway through the game. It also makes its return in Dark Souls III, in much darker and grim scenery compared to this castle in the sunset.",
+                    "image": "anor-londo.jpg",
+                    "imagePosition": "top"
+                }
+            }
+        ]
+    },
+    "dsII": {
+        "gameTitle": "Dark Souls II",
+        "locations": [
+            {
+                "title": "Forest of Fallen Giants",
+                "route": "/forest-of-fallen-giants",
+                "data": {
+                    "description": "Forest of Fallen Giants is an area in Dark Souls II. This area represents some of the best world-building in the game, as it's the first main area the player encounters and one of the last areas they go back to before the final boss. The player is introduced to plenty of easy enemies, but there are also big ogres that pose a difficult, but rewarding challenge. There are plenty of visually distinctive sections of this area that create a very memorable experice during a playthrough.",
+                    "image": "forest-of-fallen-giants.webp",
+                    "imagePosition": "bottom"
+                }
+            },
+            {
+                "title": "Heide's Tower of Flame",
+                "route": "/heides-tower-of-flame",
+                "data": {
+                    "description": "Heide's Tower of Flame is an area in Dark Souls II. This area is the second area of the game after Forest of Fallen Giants. The zone is littered with large enemies named Old Knights and lore-relevant non-hostile enemies named Heide Knights. The player is presented with diverging paths halfway through the area, one leading to a fearsome dragon and an optional Ornstein reprise boss (see Anor Londo section), and the other leading to an interesting boss battle with Dragonrider.",
+                    "image": "heides-tower-of-flame.jpg",
+                    "imagePosition": "bottom"
+                }
+            }
+        ]
+    },
+    "dsIII": {
+        "gameTitle": "Dark Souls III",
+        "locations": [
+            {
+                "title": "Irithyll of the Boreal Valley",
+                "route": "/irithyll-of-the-boreal-valley",
+                "data": {
+                    "description": "Irithyll of the Boreal Valley is an area in Dark Souls III. This is absolutely the most visually memorable area in the game, as well as one of the most memorable in terms of sheer difficulty. Before this area, the player goes through a handful of visually drab environments, so when you exit some catacombs and see the icy blue sky, it leads to a huge 'wow' moment. The area opens with a terrifying enemy named Sulyvahn's Beast spawning behind the player, and the zone is full of tough foes, leading up to a difficult boss, Pontiff Sulyvahn.",
+                    "image": "irithyll-of-the-boreal-valley.jpg",
+                    "imagePosition": "bottom"
+                }
+            },
+            {
+                "title": "Lothric Castle",
+                "route": "/lothric-castle",
+                "data": {
+                    "description": "Lothric Castle is an area in Dark Souls III. This castle has lots of tough knights to fight that test your strength along with a nicely layered map design. The player encounters a wide variety of enemies in this zone, ranging from mimic chests to large dragons. However, my favorite aspect of this area is the boss, Dragonslayer Armour. Design-wise, Dragonslayer Armour is an empty set of moving armor, controlled by a pilgrim butterfly flying above. The fight is extremely well-balanced, leading the player to feel very triumphant when beating this boss.",
+                    "image": "lothric-castle.jpg",
+                    "imagePosition": "top"
+                }
+            }
+        ]
+    }
+}

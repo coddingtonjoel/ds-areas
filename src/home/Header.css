@@ -1,0 +1,40 @@
+.headerText h1 {
+    margin-bottom: 0;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.headerSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+}
+
+.headerSection::after {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    background-image: url('../images/ds3-header-art.jpg');
+    filter: blur(4px);
+    border-radius: 12px;
+    background-position: left;
+}
+
+.headerText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 0px;
+    height: 250px;
+    width: 50vw;
+    border-radius: 30px;
+    background: var(--primaryGradient);
+    box-shadow: var(--boxShadow);
+}
