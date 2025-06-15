@@ -1,10 +1,9 @@
-import { useState, useRef, useEffect } from 'react';
+import { useState } from 'react';
 import "./SubmissionForm.css";
 
 const SubmissionForm = () => {
   const [submitted, setSubmitted] = useState(false);
   const [droppedFile, setDroppedFile] = useState(null);
-  const imageDropRef = useRef(null);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -30,12 +29,6 @@ const SubmissionForm = () => {
     setSubmitted(false);
   }
 
-  useEffect(() => {
-    if (imageDropRef) {
-      imageDropRef.current.addEventListener('drop', handleDrop);
-    }
-  }, [imageDropRef]);
-
   const submissionForm = (
     <form name="areaSubmission" onSubmit={handleSubmit}>
       <input
@@ -50,7 +43,7 @@ const SubmissionForm = () => {
           placeholder="Area Name*"
           required
       />
-      <div className="imageDrop" ref={imageDropRef} onDragOver={handleDragOver} onDragLeave={handleDragLeave}>
+      <div className="imageDrop" onDrop={handleDrop} onDragOver={handleDragOver} onDragLeave={handleDragLeave}>
         {/* show dropped file, if there is one */}
         <span>{!droppedFile ? "Drag and drop image here! (Optional)" : droppedFile?.name}</span>
       </div>
