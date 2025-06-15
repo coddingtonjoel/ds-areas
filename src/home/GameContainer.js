@@ -11,7 +11,7 @@ const GameContainer = ({ className, image, gameData }) => {
       <img draggable={false} src={image} alt={gameTitle}/>
       <div className="buttonContainer">
         {locations.map(loc =>
-          <Link to={loc.route}>
+          <Link key={loc.route} to={loc.route}>
             <button>
                 {fireIcon}
                 <span>{loc.title}</span>
