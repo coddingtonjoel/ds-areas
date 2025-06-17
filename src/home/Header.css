@@ -9,6 +9,7 @@
     align-items: center;
     justify-content: center;
     height: 450px;
+    text-align: center;
 }
 
 .headerSection::after {
@@ -37,4 +38,14 @@
     border-radius: 30px;
     background: var(--primaryGradient);
     box-shadow: var(--boxShadow);
+}
+
+@media (width < 900px) {
+    .headerText h1 {
+        font-size: 2.4rem;
+    }
+
+    .headerText {
+        width: 80vw;
+    }
 }

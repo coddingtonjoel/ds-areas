@@ -56,7 +56,29 @@
 
 .description {
     width: 80vw;
-    margin: 40px auto 0;
+    margin: 40px auto 20px;
     line-height: 45px;
     font-size: 1.1rem;
+}
+
+@media (width < 1000px) {
+    .areaHeader {
+        height: 200px;
+    }
+
+    .areaHeader > span {
+        margin-top: 70px;
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    .backButton {
+        left: 50%;
+        transform: translateX(-50%);
+        width: 200px;
+    }
+
+    .backButton:active {
+        transform: translateX(-50%);
+    }
 }

@@ -119,3 +119,31 @@
     transform: translate(-5px, -1px);
     margin: 10px;
 }
+
+@media (width < 900px) {
+    .gameSection {
+        height: 100%;
+        padding: 50px 0;
+        flex-wrap: wrap;
+    }
+
+    .gameSection > div {
+        width: 300px;
+        margin: 20px;
+    }
+
+    .gameSection > div > img {
+        width: 150px;
+        height: 100%;
+    }
+
+    .gameSection .buttonContainer button {
+        width: 10rem;
+    }
+}
+
+@media (width < 600px) {
+    .cta h2 {
+        font-size: 1.4rem;
+    }
+}
